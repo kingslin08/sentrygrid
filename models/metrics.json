@@ -1,0 +1,85 @@
+{
+  "n_train": 11910,
+  "n_test": 5090,
+  "false_positive_rate": 0.0,
+  "detection_recall": 0.8829484340398608,
+  "three_state_accuracy": 0.9212180746561887,
+  "seven_class_accuracy": 0.9212180746561887,
+  "fault_vs_attack_accuracy_on_detected": 0.98889286993909,
+  "confusion_matrix": {
+    "labels": [
+      "normal",
+      "fault_overheating",
+      "fault_imbalance",
+      "fault_bearing",
+      "attack_spoofing",
+      "attack_replay",
+      "attack_dos"
+    ],
+    "matrix": [
+      [
+        1929,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        221,
+        239,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        15,
+        0,
+        481,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        0,
+        0,
+        597,
+        0,
+        0,
+        0
+      ],
+      [
+        66,
+        31,
+        0,
+        0,
+        336,
+        0,
+        0
+      ],
+      [
+        66,
+        0,
+        0,
+        0,
+        0,
+        760,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        347
+      ]
+    ]
+  }
+}

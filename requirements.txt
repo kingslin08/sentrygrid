@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+scipy>=1.11
+joblib>=1.3
+fastapi>=0.110
+uvicorn[standard]>=0.29
+shap>=0.45          # optional: explanations fall back to baseline-deviation if missing
+pytest>=8.0
