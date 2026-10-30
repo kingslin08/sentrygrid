@@ -7,3 +7,9 @@ models/*.joblib
 .pytest_cache/
 .env
 .DS_Store
+
+data/*-journal
+data/*.db-wal
+
+data/*-journal
+data/*.db-wal
